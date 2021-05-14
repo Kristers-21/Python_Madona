@@ -1,4 +1,4 @@
-  """
+"""
     Funkcija akrs akceptē trīs argumentus - skaiļus viens, divi un trīs, 
     aprēķina to kubu starpību un atgriež to.
     Pārbaudiet funkcijas darbību ar dažādiem argumentiem, ievadot nepieciešamās
@@ -10,4 +10,8 @@
         tris {int vai float} -- trešais skaitlis
     Atgriež:
         int vai float -- argumentu kubu starpību
- """
+"""
+
+akrs=input("Ievadi skaitli no 1 līdz 3: ")
+matem=str==(akrs*akrs*akrs)
+print(matem)
